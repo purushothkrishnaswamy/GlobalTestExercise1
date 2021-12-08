@@ -1,5 +1,7 @@
-# GlobalTestExercise1
+# SpacX Land GraphQL API Automation testing using Rest Assured with Allure Reports
 
+This project is a demo project which demonstrates Spacex Land GraphQL Launches API automation with Rest Assured and
+Java.
 
 Requirement for Test Exercise 1 --  API exercise
 ---
@@ -39,3 +41,34 @@ Above are the requirements for the API exercise, use any of the automated testin
 [Karate](https://github.com/karatelabs/karate)
 
 [Postman](https://www.postman.com/)
+
+Precondition
+---
+A Java 11 JDK, Maven and an IDE of your choice.
+
+Git Clone to your local repository
+---
+git clone https://github.com/pkauto21/GlobalTestExercise1.git
+
+
+Steps
+---
+
+* This project is created using IntelijIdea IDE. Once you clone the project navigate to the File-> project structure and
+  set the Project SDK as java 11 from your PC
+* Install maven and set up the path in OS and update the intelijidea maven settings
+* Add Lombok pluign in to the intelijidea by navigating to the File -> Settings -> Plugins and search "Lombok"
+
+Running the tests using Maven
+---
+
+```bash
+mvn clean test
+```
+
+For Allure reports
+
+```bash
+mvn clean test allure:report
+mvn allure:serve
+```
