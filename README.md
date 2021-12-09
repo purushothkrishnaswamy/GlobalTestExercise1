@@ -48,7 +48,7 @@ A Java 11 JDK, Maven and an IDE of your choice.
 
 Git Clone to your local repository
 ---
-git clone https://github.com/pkauto21/GlobalTestExercise1.git
+git clone https://github.com/purushothkrishnaswamy/GlobalTestExercise1.git
 
 
 Steps
